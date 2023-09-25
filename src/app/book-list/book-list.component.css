@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr; 
+  padding: 25px;
+}
+
+mat-card {
+  cursor: pointer; 
+}
+
+.grid-container__item {
+  padding: 20px;
+  font-size: 20px; 
+  transition: 0.2s; 
+}
+
+.grid-container__item:hover {
+  transform: translateY(-10px);
+  filter: brightness(125%);
+  cursor: pointer; 
+}
+
+.grid-container__ahref {
+  text-decoration: none;
+}
+
+.spinner {
+  margin-top: 2%;
+  margin-left: 45%;
+}

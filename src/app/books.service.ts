@@ -1,7 +1,7 @@
 /**
  * Name: Trevor McLaurine
- * Date: 9/6/2023
- * Assignment: Exercise 6.2 - Input/Output Properties, Part 1
+ * Date: 9/30/2023
+ * Assignment: In-N-Out Books
  * Description: Book Service
 **/
 
@@ -26,8 +26,8 @@ export class BooksService {
     '9780316769532',
     '9780743273565',
     '9780590405959'
-  ]; 
-  
+  ];
+
   constructor(private http: HttpClient) { }
 
   getBooks() {
@@ -39,5 +39,5 @@ export class BooksService {
     return this.http.get('https://openlibrary.org/api/books', { params: params})
   }
 
-  
+
 }

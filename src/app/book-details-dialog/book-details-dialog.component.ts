@@ -1,7 +1,7 @@
 /**
  * Name: Trevor McLaurine
- * Date: 9/11/2023
- * Assignment: Exercise 6.2 - Input/Output Properties, Part 1
+ * Date: 9/30/2023
+ * Assignment: In-N-Out Books
  * Description: Book details
 **/
 
